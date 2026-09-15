@@ -23,6 +23,9 @@
         <label>Sueldo</label>
         <input type="number" name="sueldo" step="0.01" required />
 
+        <label>Email</label>
+        <input type="email" name="email" required />
+
         <button class="btn" type="submit">Guardar</button>
         <a class="btn btn-secondary" href="${pageContext.request.contextPath}/persona">Volver</a>
       </form>
