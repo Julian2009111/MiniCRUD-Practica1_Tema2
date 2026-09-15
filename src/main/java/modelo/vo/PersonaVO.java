@@ -4,15 +4,17 @@ public class PersonaVO {
     private int cod;
     private String nombre;
     private double sueldo;
+    private String email;
 
     public PersonaVO() {
 
     }
 
-    public PersonaVO(int cod, String nombre, double sueldo) {
+    public PersonaVO(int cod, String nombre, double sueldo, String email) {
         this.cod = cod;
         this.nombre = nombre;
         this.sueldo = sueldo;
+        this.email = email;
     }
 
     public int getCodigo() {
@@ -39,9 +41,17 @@ public class PersonaVO {
         this.sueldo = sueldo;
     }
 
+    public double getEmail() {
+        return email;
+    }
+
+    public void setEmail(double email) {
+        this.email = email;
+    }
+
     @Override
     public String toString() {
-        return "PersonaVO{" + "cod=" + cod + ", nombre=" + nombre + ", sueldo=" + sueldo    + '}';
+        return "PersonaVO{" + "cod=" + cod + ", nombre=" + nombre + ", sueldo=" + sueldo  ", email=" + email  + '}';
     }
 
 }
