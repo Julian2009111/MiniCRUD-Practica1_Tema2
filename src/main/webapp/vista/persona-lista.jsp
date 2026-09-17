@@ -22,7 +22,7 @@
             <tr>
               <th>Código</th>
               <th>Nombre</th>
-              <th>Sueldo</th>
+              <th>Categoria</th>
               <th>Email</th>
               <th>Acciones</th>
             </tr>
@@ -35,7 +35,7 @@
             <tr>
               <td><%= p.getCodigo() %></td>
               <td><%= p.getNombre() %></td>
-              <td><%= p.getSueldo() %></td>
+              <td><%= p.getCategoria() %></td>
               <td><%= p.getEmail() %></td>
               <td class="actions">
                 <button disabled class="btn-disabled" title="Funcionalidad no disponible">Editar</button>
