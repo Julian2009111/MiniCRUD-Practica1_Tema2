@@ -21,8 +21,13 @@
         <label>Nombre</label>
         <input type="text" name="nombre" required />
 
-        <label>Sueldo</label>
-        <input type="number" name="sueldo" step="0.01" min="0" required />
+        <label>Categoría:</label>
+        <select name="categoria" required>
+           <option value="">Seleccionar categoría</option>
+           <option value="Junior">Junior</option>
+           <option value="Semi-Senior">Semi-Senior</option>
+           <option value="Senior">Senior</option>
+        </select>
 
         <label>Email</label>
         <input type="email" name="email" required />
