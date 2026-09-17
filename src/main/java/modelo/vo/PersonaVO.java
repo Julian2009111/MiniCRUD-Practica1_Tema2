@@ -3,13 +3,13 @@ package modelo.vo;
 public class PersonaVO {
     private int cod;
     private String nombre;
-    private select categoria;
+    private String categoria;
     private String email;
 
     public PersonaVO() {
     }
 
-    public PersonaVO(int cod, String nombre, select categoria, String email) {
+    public PersonaVO(int cod, String nombre, String categoria, String email) {
         this.cod = cod;
         this.nombre = nombre;
         this.categoria = categoria;
@@ -32,11 +32,11 @@ public class PersonaVO {
         this.nombre = nombre;
     }
 
-    public select getCategoria() {
+    public String getCategoria() {
         return categoria;
     }
 
-    public void setCategoria(select categoria) {
+    public void setCategoria(String categoria) {
         this.categoria = categoria;
     }
 
